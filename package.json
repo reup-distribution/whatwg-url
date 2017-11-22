@@ -22,7 +22,7 @@
     "jsdom": "^11.0.0",
     "recast": "~0.12.6",
     "request": "^2.55.0",
-    "webidl2js": "^7.1.0"
+    "webidl2js": "git@github.com:jsdom/webidl2js.git#e4200723552b7e43faca61e3d16ce473c3d0da4a"
   },
   "scripts": {
     "build": "node scripts/transform.js && node scripts/convert-idl.js",
